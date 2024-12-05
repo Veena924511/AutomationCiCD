@@ -18,6 +18,7 @@ public class StandAloneTestFrmWrk2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+//new comment
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
